@@ -49,7 +49,7 @@ DELETE http://localhost:8080/contacts/65b3b926cc18789585396a30 HTTP/1.1
 
 // PRODUCTION Deploy
 ### Get all contacts
-GET https://cse341-instructor.herokuapp.com/contacts
+GET https://deploying-cse341-lesson3.herokuapp.com
 
 
 ### Get contact by id
@@ -70,7 +70,7 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT https://deploying-cse341-lesson3.herokuapp.com/contacts HTTP/1.1
 content-type: application/json
 
 {
