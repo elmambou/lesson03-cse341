@@ -70,13 +70,13 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://lesson03cse341.onrender.com/contacts HTTP/1.1
+PUT https://lesson03cse341.onrender.com/contacts/65b3a649d71ac9433a3f58eb HTTP/1.1
 content-type: application/json
 
 {
  "firstName": "Sarah",
- "lastName": "Maggie",
- "email": "madman@byui.edu",
+ "lastName": "Express",
+ "email": "crazyperson@byui.edu",
  "favoriteColor": "blue",
  "birthday": "12/12/20"
 }
