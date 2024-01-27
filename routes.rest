@@ -37,11 +37,11 @@ content-type: application/json
     "firstName": "Sarah",
     "lastName": "Maggie",
     "email": "personality@byui.edu",
-    "favoriteColor": "red ",
+    "favoriteColor": "yellow",
     "birthday": "12/12/20"
 }
 ### DELETE contact
-DELETE http://localhost:8080/contacts/65b4ee62b5df95f3416ce50a HTTP/1.1
+DELETE http://localhost:8080/contacts/65b4f2ceb5df95f3416ce50b HTTP/1.1
 
 
 
