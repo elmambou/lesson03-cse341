@@ -11,11 +11,6 @@ GET http://localhost:8080/contacts/65b3a649d71ac9433a3f58eb
 GET http://localhost:8080/contacts/65b3a656d71ac9433a3f58ec
 
 
-### Get contact by id
-GET http://localhost:8080/contacts/65b3a662d71ac9433a3f58ed
-
-
-
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
@@ -41,7 +36,7 @@ content-type: application/json
     "birthday": "12/12/20"
 }
 ### DELETE contact
-DELETE http://localhost:8080/contacts/65b4f2ceb5df95f3416ce50b HTTP/1.1
+DELETE http://localhost:8080/contacts/65b3a656d71ac9433a3f58ec HTTP/1.1
 
 
 
@@ -75,7 +70,7 @@ content-type: application/json
 
 {
  "firstName": "Sarah",
- "lastName": "Express",
+ "lastName": "Birch",
  "email": "crazyperson@byui.edu",
  "favoriteColor": "blue",
  "birthday": "12/12/20"
@@ -83,4 +78,4 @@ content-type: application/json
 
 
 ### DELETE contact
-DELETE https://lesson03cse341.onrender.com/contacts/65b4f3fca32b7108c4e6a53e HTTP/1.1
+DELETE https://lesson03cse341.onrender.com/contacts/65b4f765a3fb694b7a137bcb HTTP/1.1
