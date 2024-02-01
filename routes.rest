@@ -56,11 +56,11 @@ POST https://lesson03cse341.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-"firstName": "Firmine",
-"lastName": "Jacobs",
-"email": "firmintest.com",
-"favoriteColor": "Black",
-"birthday": "02/22/95"
+"firstName": "Jacuques",
+"lastName": "Marriott",
+"email": "firmintmaritest.com",
+"favoriteColor": "Green",
+"birthday": "02/30/95"
 }
 
 
