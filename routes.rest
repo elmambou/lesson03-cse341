@@ -56,9 +56,9 @@ POST https://lesson03cse341.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-"firstName": "Jacuques",
-"lastName": "Marriott",
-"email": "firmintmaritest.com",
+"firstName": "Jacques",
+"lastName": "Charles",
+"email": "mummu@gmail.com",
 "favoriteColor": "Green",
 "birthday": "02/30/95"
 }
@@ -78,4 +78,4 @@ content-type: application/json
 
 
 ### DELETE contact
-DELETE https://lesson03cse341.onrender.com/contacts/65b4f765a3fb694b7a137bcb HTTP/1.1
+DELETE https://lesson03cse341.onrender.com/contacts/65b3a662d71ac9433a3f58ed HTTP/1.1
